@@ -18,9 +18,9 @@ SECRET_KEY = 'django-insecure-!&!2jb74awqbvd58c7)q$*m(*oz4p^h-a9^kdcmssi%q-c!x(o
 DEBUG = os.environ["DEBUG"]
 
 
-ALLOWED_HOSTS = ["https://django-server-production-7ba3.up.railway.app/"]
+ALLOWED_HOSTS = ["*"]
 
-CSRF_TRUSTED_ORIGINS = ["https://django-server-production-7ba3.up.railway.app/"]
+CSRF_TRUSTED_ORIGINS = ["*"]
 
 
 
