@@ -9,5 +9,5 @@ class ClienteForm(forms.ModelForm):
         widgets = {
             'nome': forms.TextInput(attrs={'class': 'form-control'}),
             'email': forms.EmailInput(attrs={'class': 'form-control'}),
-            'telefone': forms.NumberInput(attrs={'class': 'form-control'})
+            'telefone': forms.TextInput(attrs={'class': 'form-control'})
         }
