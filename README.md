@@ -1,7 +1,7 @@
 # CRUD DJANGO
 
 ## Deploy
-Acesse o projeto no link [Link](https://weatherforecast-upstart13.vercel.app/](https://django-server-production-7ba3.up.railway.app/)
+Acesse o projeto no link (https://django-server-production-7ba3.up.railway.app/)
 
 ## Sobre
 Um Crud desevolvido com Django e Bootstrap5, utilizando Class Based Views
