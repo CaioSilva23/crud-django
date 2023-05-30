@@ -20,6 +20,8 @@ DEBUG = os.environ["DEBUG"]
 
 ALLOWED_HOSTS = ["*"]
 
+CSRF_TRUSTED_ORIGINS = ["https://django-server-production-7ba3.up.railway.app/"]
+
 
 # Application definition
 
