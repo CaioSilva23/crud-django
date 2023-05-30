@@ -1,4 +1,3 @@
-from typing import Any, Dict
 from django import forms
 from .models import Cliente
 

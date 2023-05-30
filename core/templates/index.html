@@ -28,12 +28,11 @@
                         <td>{{cliente.email}}</td>
                         <td>{{cliente.telefone}}</td>
                         <td>
+                            <a class="text-primary" href="{% url 'cliente:update' cliente.pk%}">
+                                <i class="bi bi-pencil-fill"></i>
+                            </a>
                             <a class="text-danger" href="{% url 'cliente:delete' cliente.pk%}">
                                 <i class="bi bi-trash"></i>
-                            </a>
-                            &nbsp;&nbsp;&nbsp;
-                            <a class="text-warning" href="{% url 'cliente:update' cliente.pk%}">
-                                <i class="bi bi-pencil-fill"></i>
                             </a>
                         </td>
                     </tr>
