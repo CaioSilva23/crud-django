@@ -15,8 +15,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Python](https://www.python.org/)
 - [Django](https://nodejs.org/en/)
-- [SQLite](https://www.sqlite.org/index.html)
+- [PostgreSQL](https://www.postgresql.org/)
 - [Bootstrap](https://getbootstrap.com/)
+- 
 
 
 
